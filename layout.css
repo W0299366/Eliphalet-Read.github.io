@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Merriweather+Sans&display=swap');
+
+@media only screen and (max-width: 715px) {
+    body{
+        font-size: 60%;
+    }
+  }
+
+body{
+    display: grid;
+    background: rgb(236, 236, 236);
+}
+a {
+    color: black;
+}
+
+header{
+    background: white;
+    grid-row-start:1; grid-row-end:2;
+    grid-column-start:1; grid-column-end:4;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5em;
+}
+header p{
+    float: left;
+    padding-left: 0.5em;
+}
+header a{
+    float: right;
+    padding-right: 1em;
+}
+
+footer{
+    background: gray;
+    grid-row-start:4; grid-row-end:5;
+    grid-column-start:1; grid-column-end:4;
+    font-family: 'Merriweather Sans', sans-serif;
+    border-top: 2px solid rgb(179, 179, 179);
+    color: gray;
+}

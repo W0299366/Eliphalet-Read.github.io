@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Merriweather+Sans&display=swap');
+
+@media only screen and (max-width: 715px) {
+    h3{
+        font-size: 150%;
+    }
+  }
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    grid-template-rows: 8% 5% 93% 5%;
+    grid-template-columns: 45% 10% 45%;
+}
+
+#headerbuffer{
+    grid-row-start:2; grid-row-end:3;
+    grid-column-start:1; grid-column-end:4;
+    background: gray;
+    border-bottom: 2px solid rgb(179, 179, 179);
+}
+
+#info{
+    grid-row-start:3; grid-row-end:4;
+    grid-column-start:1; grid-column-end:2;
+    padding: 5%;
+}
+
+#roadmap{
+    grid-row-start:3; grid-row-end:4;
+    grid-column-start:3; grid-column-end:4;
+}
+
+#timeline{
+    margin-left: auto;
+    margin-right: auto;
+    background: gray;
+    width: 15px;
+    height: 80%;
+    border-radius: 25px;
+    margin-top: 5%;
+}
+
+.event{
+    margin-top: 500%;
+    margin-left: -30%;
+    background: gray;
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    text-align: right;
+}
+
+.event p{
+    padding-left: 150%;
+    width: 375%;
+}
+
+#event1{
+    text-decoration: line-through;
+}
