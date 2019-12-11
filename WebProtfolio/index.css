@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Merriweather+Sans&display=swap');
+
+@media only screen and (max-width: 715px) {
+    body{
+        grid-template-rows: 6% 20% 71% 5.55%;
+        grid-template-columns: 10% 50% 40%;
+    }
+  }
+
+/* body */
+body{
+    grid-template-rows: 6% 50% 71% 5.55%;
+    grid-template-columns: 33.3% 33.3% 33.4%;
+}
+
+#me{
+    background: rgb(204, 204, 204);
+    grid-row-start:2; grid-row-end:3;
+    grid-column-start:1; grid-column-end:4;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top: 2px solid rgb(179, 179, 179);
+    border-bottom: 2px solid rgb(179, 179, 179);
+    text-align: center;
+}
+
+#me img{
+    width: 7%;
+    border-radius: 50%;
+    border: 2px solid rgb(121, 121, 121);
+    margin-top: 1%;
+}
+#me h1{
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px gray;
+}
+#info{
+    background: rgb(236, 236, 236);
+    grid-row-start:3; grid-row-end:4;
+    grid-column-start:2; grid-column-end:3;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-top: 10%;
+    padding-right: 17%;
+}
+#contact{
+    background: rgb(236, 236, 236);
+    grid-row-start:3; grid-row-end:4;
+    grid-column-start:3; grid-column-end:4;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-top: 10%;
+}
